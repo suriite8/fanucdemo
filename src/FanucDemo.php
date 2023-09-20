@@ -2,7 +2,7 @@
 
 namespace CentralStage\Fanuc;
 
-class FanucService
+class FanucDemo
 {
     public function add($a, $b)
     {
