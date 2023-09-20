@@ -1,0 +1,36 @@
+{
+    "name": "centralstage/funucdemo",
+    "description": "Demo Package for central stage fanuc service.",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://centralstage.io",
+    "authors": [
+        {
+            "name": "Kripya",
+            "email": "info@kripya.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5",
+        "doctrine/annotations": "^1.13",
+        "exercise/htmlpurifier-bundle": "^4.1",
+        "symfony/asset": "5.4.*",
+        "symfony/console": "5.4.*",
+        "symfony/dotenv": "5.4.*",
+        "symfony/framework-bundle": "5.4.*",
+        "symfony/http-client": "5.4.*",
+        "symfony/http-foundation": "5.4.*",
+        "symfony/string": "5.4.*",
+        "symfony/validator": "5.4.*",
+        "symfony/yaml": "5.4.*",
+        "ext-hash": "*",
+        "ext-json": "*",
+        "ext-mongodb": "^1.13.0",
+        "symfony/polyfill-php80": "^1.19"
+    },
+    "autoload": {
+        "psr-4": {
+            "CentralStage\\Fanuc\\": "src/"
+        }
+    }
+}
