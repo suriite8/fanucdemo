@@ -1,6 +1,6 @@
 {
     "name": "centralstage/funucdemo",
-    "description": "Demo Package for central stage fanuc services.",
+    "description": "Demo Package for central stage fanuc services",
     "type": "library",
     "license": "MIT",
     "homepage": "https://centralstage.io",
